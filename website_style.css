@@ -19,7 +19,7 @@ various style changes
 	visibility changes links 
     other elements*/
 
-    h1 {
+    h1,h3 {
         color: purple;
         font-family: arial,Sans-serif;
         font-weight: 900;
