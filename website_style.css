@@ -1,0 +1,20 @@
+/*color = data type
+	different styles at different hierarchies, 
+	have an externally linked style sheet text file using the <link rel=""> tag in the <head>
+	using embedded style sheet using <style> tag in the <head> of the doc and in-line as a style=""
+
+various ways to specify what should be actually styled.
+	you want all <a> tags to be styled in a particular way
+	only certain subsets of tags being styled by using class="" and specifying .class in the stylesheet
+	unique elements being styled in a certain way through id="" and #id
+
+various style changes
+	font sizes, 
+	font weight
+	treatment 
+	position 
+	alignment of elements 
+	manipulation of images,
+	hover 
+	visibility changes links 
+	other elements*/
