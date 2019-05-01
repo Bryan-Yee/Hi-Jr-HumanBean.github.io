@@ -11,10 +11,23 @@ various ways to specify what should be actually styled.
 various style changes
 	font sizes, 
 	font weight
-	treatment 
-	position 
+	font treatment 
+	font position 
 	alignment of elements 
 	manipulation of images,
 	hover 
 	visibility changes links 
-	other elements*/
+    other elements*/
+
+    h1 {
+        color: purple;
+        font-family: arial,Sans-serif;
+        font-weight: 900;
+        font-style: italic;
+        text-align: center;
+        font-weight: bold;
+    }
+    hr {
+        border: 5px dashed rgb(96, 52, 153);
+        border-radius: 2.5px;
+    }
