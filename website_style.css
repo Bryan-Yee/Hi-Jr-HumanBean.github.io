@@ -35,7 +35,6 @@ various style changes
 
     hr {
         border: 5px dashed rgb(96, 52, 153);
-<<<<<<< HEAD
 		border-radius: 2.5px;
     }
     p {
@@ -55,8 +54,3 @@ various style changes
         }
       }
 	
-=======
-		border-radius: 5px;
-	}
-	pre {font-size: 5vw;}
->>>>>>> b3a8a6a93f3741d60bc4eee5be638e3e755d9f7a
