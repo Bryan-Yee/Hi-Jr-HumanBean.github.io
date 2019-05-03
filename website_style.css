@@ -27,6 +27,7 @@ various style changes
         text-align: center;
         font-weight: bold;
 	}
+
 	h2{border: 2px solid rgb(250, 150, 250);
 	 border-radius: 5px;
 	 font-weight:900;color:rgb(204, 0, 255);
@@ -34,7 +35,193 @@ various style changes
 	}
 
     hr {
-        border: 5px dashed rgb(96, 52, 153);
+        border: 4px dashed rgb(96, 52, 153);
 		border-radius: 5px;
 	}
 	pre {font-size: 5vw;}
+
+	span {color:rgb(129, 0, 161);
+		font-family: arial, Sans-serif;
+	font-weight:bold;
+	border: 1px solid rgb(250, 150, 250);
+	background-color: rgb(250, 150, 250);
+	border-radius: 5px;
+	}
+p{border: 2px rgb(255, 203, 227);
+	background-color:rgb(255, 203, 227);
+	border-radius: 5px;
+}
+
+/*-------------- CAT BIG FWACKING CAT --------------*/
+	* {
+		box-sizing: border-box;
+	  }
+	  .outer--border {
+		width: 361px;
+		height: 560px;
+		border: 30px solid white;
+		background: black;
+		background-size: cover;
+		margin: 0 auto;
+		position: relative;
+		overflow: hidden;
+	  }
+		div{
+		  position: absolute;
+		}
+	
+	  
+	  .bar--left,
+	  .cat{
+		background: white;
+	  }
+	  
+	  .bar--left {
+		width: 57px;
+		height: 316px;  
+	  }
+	  
+	  .table--top {
+		width: 320px;
+		height: 222px;
+		bottom: -50px;
+		background: repeating-linear-gradient(
+			  -45deg,
+			  white,
+			  white 25%,
+			  rgba(0,0,0,.0) 25%,
+			  rgba(0,0,0,.0) 50%,
+			  white 50%
+		  ) top left;
+		  background-size: 70px 70px;
+		border-radius: 25% 45% 0 0 ;
+		transform: rotate(45deg) skewY(135deg) skewX(5deg);
+	  }
+	  
+	  .table--front {
+		  width: 357px;
+		  height: 81px;
+		  bottom: -20px;
+		  transform: skewY(3deg);
+		  background: repeating-linear-gradient(90deg, black, black 25%, white 25%, white 50%, black 50%) top left;
+		  background-size: 174px;
+	  }
+	  
+	  .cat--base {
+		width: 140px;
+		height: 80px;
+		bottom: 100px;
+		left: 100px;
+		transform: skew(30deg, 10deg);
+		border-radius: 40px 0 20px 0;  
+	  }
+	  
+	  .cat--tail {
+		width: 140px;
+		height: 50px;
+		border-top: 3px solid black;
+		border-bottom: 3px solid black;
+		bottom: 100px;
+		border-radius: 80% 0px;
+		transform: rotate(-10deg) skew(10deg, 30deg);
+		left: 120px;
+		z-index: 1;
+	  }
+	  
+	  .cat--middle {
+		width: 126px;
+		height: 140px;
+		bottom: 165px;
+		left: 108px;
+		transform: skewX(-13deg);
+		border-radius: 20% 70% 00% 10%;
+	  }
+	  
+	  .cat--front {
+		  width: 159px;
+		  height: 213px;
+		  top: 108px;
+		  left: 77px;
+		  transform: rotate(33deg) skew(14deg, 40deg);
+		  border-right: 3px solid black;
+		  border-left: 5px solid black;
+		  border-bottom: 2px solid black;
+		  border-radius: 253% 69% 80% 200%;
+	  }
+	  
+	  .cat--head {
+		  width: 86px;
+		  height: 80px;
+		  top: 73px;
+		  left: 108px;
+		  border-bottom: 3px solid black;
+		  border-radius: 50px 30px;
+	  }
+	  
+	  .cat--right--ear {
+		  width: 32px;
+		  height: 84px;
+		  top: 44px;
+		  left: 165px;
+		  transform: skew(23deg, 46deg) rotate(33deg);
+		  border-radius: 5px 131px 56px 0;
+	  }
+	  
+	  .cat--left--ear {
+		  width: 23px;
+		  height: 24px;
+		  top: 70px;
+		  left: 126px;
+		  transform: rotate(25deg) skewY(10deg) skewX(30deg);
+	  }
+	  
+	  .m,
+	  .c,
+	  .e {
+		width: 25px;
+		height: 22px;
+		background: #000;
+	  }
+	  
+	  .m {
+		 background: repeating-linear-gradient(
+			  90deg,
+			  black,
+			black 40%,
+			  white 40%,
+			  white 50%,
+			  black 50%
+		  ) top left;
+		  background-size: 18px;
+		border-top: 4px dashed black;
+	  }
+	  
+	  .c {
+		top: 26px;
+		background: repeating-linear-gradient(
+			  0deg,
+			  black,
+		   black 40%,
+			  white 40%,
+			  white 50%,
+			  black 50%
+		  ) bottom left;
+		  background-size: 15px;
+		border-left: 12px solid black;
+		border-top: 2px solid black;
+	  }
+	  
+	  .e {
+		top: 52px;
+		background: repeating-linear-gradient(
+			  0deg,
+			  black,
+		   black 40%,
+			  white 40%,
+			  white 50%,
+			  black 50%
+		  ) bottom left; 
+		  background-size: 11px;
+		border-left: 12px solid black;
+		border-top: 3px solid black;
+	  }
