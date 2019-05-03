@@ -54,6 +54,8 @@ various style changes
 		box-sizing: border-box;
 	  }
 	  .outer--border {
+		border:5px solid rgb(255,255,255);
+		border-radius:10px;
 		width: 361px;
 		height: 560px;
 		border: 30px solid white;
@@ -71,11 +73,13 @@ various style changes
 	  .bar--left,
 	  .cat{
 		background: white;
+		
 	  }
 	  
 	  .bar--left {
 		width: 57px;
 		height: 316px;  
+		
 	  }
 	  
 	  .table--top {
