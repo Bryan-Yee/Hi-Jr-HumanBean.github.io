@@ -8,14 +8,17 @@ paragraph <p>,
 lists (<ol> and <ul>), 
 and image <img> -->
 <!--test changes--> 
-<html>
-    
+<html lang= "en">   
 <!--header-->
-        
-
 <head>
 <!--borders for the table-->
-<link rel="stylesheet" href="website_style.css">          
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="website_style.css">          
 <style>
     body {
         border: 10px solid purple;
@@ -24,7 +27,7 @@ and image <img> -->
     table, th, td {
       border: 1px solid black;
     }
-
+/*This is how I align and style the the texts in p and images*/
     p, img {
         display: block;
                 margin-left: auto;
@@ -34,8 +37,8 @@ and image <img> -->
                 color: black;
     } 
 
-/*This is how I align the lists*/
-    ul, ol { 
+/*This is how I align and style the lists*/
+.list { 
         width: 300px;
         border: 15px solid purple;
         padding: 50px;
@@ -43,6 +46,8 @@ and image <img> -->
         display:table; 
         margin:0 auto;
     }
+
+  
 
 /*sets the color for the links*/
     a, p {
@@ -79,22 +84,34 @@ and image <img> -->
 '---''(_/--'  `-'\_) 
 </pre>
 </h2>
-
 <hr>
 </head>
 
 <!--header for ordered list-->
 <h1>Best animals    </h1>
 
-<ol> <!--list of best animals (ordered)-->
+<ol class="list"> <!--list of best animals (ordered)-->
         <li>Cats</li>
         <li>Fish (because they feed cats)</li>
         <li>frogs</li>
 </ol>
 
-
-
-<body bgcolor="#ffccff" > <!--background color added-->
+<body bgcolor="#ffccff" > <!--background color added-->           
+    <nav class="navbar navbar-expand-sm bg-pink navbar-pink fixed-top">
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.google.com/search?q=cats&source=lnms&tbm=isch&sa=X&ved=0ahUKEwitl638kKHiAhXmiFQKHRkLDt0Q_AUIDigB&biw=1536&bih=792">More Cat Pics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About </a>
+          </li>
+        </ul>
+      </nav>  
+    
 <h1>About this page</h1>
 <p><strong>This page is about cats</strong></p>
 
@@ -103,7 +120,7 @@ and image <img> -->
     
     <h1><strong> MOST POPULAR CATS </strong></h1> <!-- heading for list-->
 
-    <ul>  <!--list of breeds-->
+    <ul class="list">  <!--list of breeds-->
         <strong>
         <li><a href="https://en.wikipedia.org/wiki/Siberian_cat">siberian</a></li>
         <li><a href="https://www.thesprucepets.com/serval-cats-1238152">serval</a></li>
