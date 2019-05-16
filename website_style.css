@@ -48,6 +48,56 @@ various style changes
 	border-radius: 5px;
 	}
 
+	body {
+		border: 10px solid purple;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+p, img {
+		display: block;
+						margin-left: auto;
+						margin-right: auto;
+						width: 40%;
+						text-align: center;
+						color: black;
+} 
+
+/*This is how I align the lists*/
+ul, ol { 
+		width: 300px;
+		border: 15px solid purple;
+		padding: 50px;
+		margin: 20px;
+		display:table; 
+		margin:0 auto;
+}
+
+/*sets the color for the links*/
+a, p {
+		color: hotpink
+}
+
+#category{
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+}
+
+#category tr:nth-child(even){background-color: #f2f2f2;}
+
+#category tr:hover {background-color: rgb(51, 42, 42);}
+
+#category th {
+		padding-top: 12px;
+		padding-bottom: 12px;
+		text-align: left;
+		background-color: rgba(240, 122, 189, 0.815);
+		color: white;
+}
+
+
 
 /*-------------- CAT BIG FWACKING CAT --------------*/
 	* {
