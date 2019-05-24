@@ -18,7 +18,9 @@ various style changes
 	hover 
 	visibility changes links 
     other elements*/
-
+.purplecat{
+color: purple;
+}
     h1,h3 {
         color: purple;
         font-family: arial,Sans-serif;
