@@ -123,28 +123,58 @@ and image <img> -->
 
 <!--borders for the table-->
 <link rel="stylesheet" href="website_style.css">   
-<!--header for ordered list-->
-<h1>Best animals    </h1>
 
-<ol class="list"> <!--list of best animals (ordered)-->
-        <li>Cats</li>
-        <li>Fish (because they feed cats)</li>
-        <li>frogs</li>
-</ol>
+
+
+
 
 <div class="jumbotron text-center" style="-webkit-margin-top-collapse:0">
     <h1>cats + kittens</h1>
     <p> meow </p> </div>
 
-<body bgcolor="#ffccff" > <!--background color added-->
-<h1>About this page</h1>
-<p><strong>This page is about cats</strong></p>
+<body bgcolor="#ffccff" > 
+    <!--background color added-->
 
-    <img src = "https://media.giphy.com/media/33OrjzUFwkwEg/giphy.gif" alt="cat gif">
-    
-    
-    <h1><strong> MOST POPULAR CATS </strong></h1> <!-- heading for list-->
+    <h1>About this page</h1>
 
+    <p><strong>This page is about cats</strong></p>
+    
+        <img src = "https://media.giphy.com/media/33OrjzUFwkwEg/giphy.gif" alt="cat gif">
+        
+        <button onclick="playSound()">Click for Cat Sounds</button>
+
+ <script>
+ function playSound() {
+    var audio = document.getElementById("audio");
+       audio.play();
+ 
+ }
+
+
+ </script>
+ <audio id="audio" src=catmeow.wav></audio>
+<!--Bee movie copy pasta but it's cats-->
+ 
+
+       
+
+     <!--add "class="container" to start grid"-->
+     <div class="container">
+        <!--add class="row" to make a new row in the grid-->
+            <div class="row">
+                <!--grids have 12 spaces to fill, in this one, I'm using only 6/12.-->
+                    <div class="col-sm-6">
+                            <ol class="list"> <!--list of best animals (ordered)-->
+                                <!--header for ordered list-->
+<h1>Best animals    </h1>
+                                <li>Cats</li>
+                                <li>Fish (because they feed cats)</li>
+                                <li>frogs</li>
+                            </ol>
+                            </div>
+
+                            <div class="col-sm-6">
+                                    <h1><strong> MOST POPULAR CATS </strong></h1> <!-- heading for list-->
     <ul class="list">  <!--list of breeds-->
         <strong>
         <li><a href="https://en.wikipedia.org/wiki/Siberian_cat">siberian</a></li>
@@ -154,7 +184,8 @@ and image <img> -->
         <li><a href="https://en.wikipedia.org/wiki/Tabby_cat">tabby</a></li>
         </strong>
     </ul>
-
+</div>
+<div class="col-lg-8">
     <br>	
 
     <table id = "category"  width="600" align="center">
@@ -179,8 +210,9 @@ and image <img> -->
             <th>6</th> 
         </tr>
     </table>
-
-    <!--CAT-->
+</div>
+<div class="col-sm-6">
+        <!--CAT-->
 <div class="outer--border">
     <div class="bar--left"></div>
     <div class="m"></div>
@@ -196,37 +228,22 @@ and image <img> -->
     <div class="cat cat--right--ear"></div>
     <div class="cat cat--left--ear"></div>
   </div>
-  <button onclick="playSound()">Click for Cat Sounds</button>
+  </div>
   
-  <!--Bee movie copy pasta but it's cats-->
-
-
- <script>
- function playSound() {
-    var audio = document.getElementById("audio");
-       audio.play();
- 
- }
-
- 
- 
-
- 
- 
- </script>
- 
- <audio id="audio" src=catmeow.wav></audio>
-    <p> 
-        According to all known laws
-of aviation,there is no way a cat
-should be able to fly.  
-Its wings are too small to get
-its fat little body off the ground.
-The cat, of course, flies anyway.  
-<span>
-Because cats don't care
-what humans think is impossible. </span>
-</p>
+  <div class="col-lg-7">
+        <p> 
+            According to all known laws
+    of aviation,there is no way a cat
+    should be able to fly.  
+    Its wings are too small to get
+    its fat little body off the ground.
+    The cat, of course, flies anyway.  
+    <span>
+    Because cats don't care
+    what humans think is impossible. </span>
+    </p>
+    </div>
+    </div>
 
 </body>
 
