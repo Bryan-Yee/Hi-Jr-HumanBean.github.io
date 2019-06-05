@@ -115,11 +115,12 @@ and image <img> -->
 </h2>
 <hr>
 </head>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
-<!-- End Bootstrap 4 includes -->
+
+
+
+
+<body bgcolor="#ffccff" > 
+    <!--background color added-->
 
 <!--borders for the table-->
 <link rel="stylesheet" href="website_style.css">   
@@ -131,10 +132,6 @@ and image <img> -->
 <div class="jumbotron text-center" style="-webkit-margin-top-collapse:0">
     <h1>cats + kittens</h1>
     <p> meow </p> </div>
-
-<body bgcolor="#ffccff" > 
-    <!--background color added-->
-
     <h1>About this page</h1>
 
     <p><strong>This page is about cats</strong></p>
@@ -159,12 +156,14 @@ and image <img> -->
        
 
      <!--add "class="container" to start grid"-->
-     <div class="container">
+     <div class="container-fluid">
         <!--add class="row" to make a new row in the grid-->
             <div class="row">
                 <!--grids have 12 spaces to fill, in this one, I'm using only 6/12.-->
-                    <div class="col-sm-6">
+                    <div class="col-sm-12">
+
                             <ol class="list"> <!--list of best animals (ordered)-->
+
                                 <!--header for ordered list-->
 <h1>Best animals    </h1>
                                 <li>Cats</li>
@@ -172,7 +171,8 @@ and image <img> -->
                                 <li>frogs</li>
                             </ol>
                             </div>
-
+                        </div>
+<div class="row">
                             <div class="col-sm-6">
                                     <h1><strong> MOST POPULAR CATS </strong></h1> <!-- heading for list-->
     <ul class="list">  <!--list of breeds-->
@@ -185,7 +185,9 @@ and image <img> -->
         </strong>
     </ul>
 </div>
-<div class="col-lg-8">
+
+
+<div class="col-sm-6">
     <br>	
 
     <table id = "category"  width="600" align="center">
@@ -211,6 +213,9 @@ and image <img> -->
         </tr>
     </table>
 </div>
+</div>
+
+<div class="row">
 <div class="col-sm-6">
         <!--CAT-->
 <div class="outer--border">
@@ -230,7 +235,9 @@ and image <img> -->
   </div>
   </div>
   
-  <div class="col-lg-7">
+
+
+  <div class="col-sm-6">
         <p> 
             According to all known laws
     of aviation,there is no way a cat
@@ -245,6 +252,7 @@ and image <img> -->
     </div>
     </div>
 
+    </div>
 </body>
 
 
