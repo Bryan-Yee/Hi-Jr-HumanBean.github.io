@@ -32,21 +32,6 @@ and image <img> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="website_style.css">  
-  
-  <nav class="navbar navbar-expand-sm bg-pink navbar-pink fixed-right">
-    <!-- Links -->
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://www.google.com/search?q=cats&source=lnms&tbm=isch&sa=X&ved=0ahUKEwitl638kKHiAhXmiFQKHRkLDt0Q_AUIDigB&biw=1536&bih=792">More Cat Pics</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About </a>
-      </li>
-    </ul>
-  </nav>  
 
 <style>
     body {
@@ -102,7 +87,29 @@ and image <img> -->
 
     </style>
     
-    <h1 style="text-align:center;"><B>CAT</b></h1>
+</head>
+
+
+
+  <!--background color added-->
+<body bgcolor="#ffccff" > 
+
+    <nav class="navbar navbar-expand-sm bg-pink navbar-pink fixed-right">
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.google.com/search?q=cats&source=lnms&tbm=isch&sa=X&ved=0ahUKEwitl638kKHiAhXmiFQKHRkLDt0Q_AUIDigB&biw=1536&bih=792">More Cat Pics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About </a>
+          </li>
+        </ul>
+      </nav>  
+
+<h1 style="text-align:center;"><B>CAT</b></h1>
        
         <!--used <pre> so the text stayed formatted, IE: the cat stays a cat, not a jumble of symbols-->
            <h2 > 
@@ -114,19 +121,13 @@ and image <img> -->
 </pre>
 </h2>
 <hr>
-</head>
-
-
-
-  <!--background color added-->
-<body bgcolor="#ffccff" > 
          <!--add "class="container" to start grid"-->
-         <div class="container-fluid">
+         
              
   
 
 <!--borders for the table-->
-<link rel="stylesheet" href="website_style.css">   
+
 
 
 
@@ -160,7 +161,7 @@ and image <img> -->
 
 
         <!--add class="row" to make a new row in the grid-->
-            
+        <div class="container-fluid">
                 <!--grids have 12 spaces to fill, in this one, I'm using only 6/12.-->
                    
                 <div class="row">
@@ -207,6 +208,36 @@ and image <img> -->
   </div>
   </div>
 </div>
+
+<div class="row">
+    <div class="col-md-12">
+    
+        <table id = "category"  width="600" align="center">
+            <tr>
+                <th>Breed</th>
+                <th>Name</th>
+                <th>Age</th> 
+            </tr>
+            <tr>
+                <th>siberian</th>
+                <th>Johnny</th>
+                <th>2</th> 
+            </tr>
+            <tr>
+                <th>serval</th>
+                <th>Meow</th>
+                <th>4</th> 
+            </tr>
+            <tr>
+                <th>savannah</th>
+                <th>Dog</th>
+                <th>6</th> 
+            </tr>
+        </table>
+    </div>
+    </div>
+
+
     </div>
 </body>
 
