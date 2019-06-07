@@ -116,9 +116,11 @@ border-collapse: collapse;
 		position: relative;
 		overflow: hidden;
 	  }
+	/* forbig cat. need to create a class for this
 		div{
 		  position: absolute;
 		}
+	*/
 	
 	  
 	  .bar--left,
