@@ -34,7 +34,7 @@ and image <img> -->
   <link rel="stylesheet" href="website_style.css">  
 
 <style>
-    body {
+    .body {
         border: 10px solid purple;
     }
 
@@ -60,9 +60,7 @@ and image <img> -->
         display:table; 
         margin:0 auto;
     }
-
-  
-
+ 
 /*sets the color for the links*/
     a, p {
         color: hotpink
@@ -88,27 +86,15 @@ and image <img> -->
     </style>
     
 </head>
-
-
-
   <!--background color added-->
 <body bgcolor="#ffccff" > 
+    <div id="navbar">
+        <a href="#home">Home</a>
+        <a href="https://www.google.com/search?q=cats+pics&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjfnZjfuN7iAhWRrJ4KHbs2Ce4Q_AUIECgB&biw=1536&bih=792&dpr=1.25" target="_blank" >More Cat Pics</a>
+        <a href="https://www.seattlehumane.org/adoption/cats/" target="_blank" >Adopt A Cat</a>
+    </div>
 
-    <nav class="navbar navbar-expand-sm bg-pink navbar-pink fixed-right">
-        <!-- Links -->
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.google.com/search?q=cats&source=lnms&tbm=isch&sa=X&ved=0ahUKEwitl638kKHiAhXmiFQKHRkLDt0Q_AUIDigB&biw=1536&bih=792">More Cat Pics</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About </a>
-          </li>
-        </ul>
-      </nav>  
-
+    
 <h1 style="text-align:center;"><B>CAT</b></h1>
        
         <!--used <pre> so the text stayed formatted, IE: the cat stays a cat, not a jumble of symbols-->
@@ -122,16 +108,8 @@ and image <img> -->
 </h2>
 <hr>
          <!--add "class="container" to start grid"-->
-         
-             
-  
 
 <!--borders for the table-->
-
-
-
-
-
 <div class="jumbotron text-center" style="-webkit-margin-top-collapse:0">
     <h1>cats + kittens</h1>
     <p> meow </p> 
@@ -152,19 +130,26 @@ and image <img> -->
  
  }
 
+ window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
 
  </script>
  <audio id="audio" src=catmeow.wav></audio>
 <!--Bee movie copy pasta but it's cats-->
- 
-
-       
-
-
         <!--add class="row" to make a new row in the grid-->
         <div class="container-fluid">
-                <!--grids have 12 spaces to fill, in this one, I'm using only 6/12.-->
-                   
+                <!--grids have 12 spaces to fill, in this one, I'm using only 6/12.-->                
                 <div class="row">
                         <div class="col-md-4">      
                         <h1><strong> MOST POPULAR CATS </strong></h1> <!-- heading for list-->
@@ -237,13 +222,8 @@ and image <img> -->
             </tr>
         </table>
     </div>
-    </div>
+</div>
 
-
-    </div>
+</div>
 </body>
-
-
-
-    
-    </html>
+</html>

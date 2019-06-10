@@ -66,8 +66,8 @@ p, img {
 						color: black;
 } 
 
-/*This is how I align the lists*/
-ul, ol { 
+/*This is how I align and style the lists*/
+.item-list { 
 		width: 300px;
 		border: 15px solid purple;
 		padding: 50px;
@@ -77,9 +77,43 @@ ul, ol {
 }
 
 /*sets the color for the links*/
-a, p {
+p {
 		color: hotpink
 }
+
+/* Style the navbar */
+#navbar {
+	overflow: hidden;
+	background-color: purple;	
+  }
+  
+  /* Navbar links */
+  #navbar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+
+  }
+  
+  /* Page content */
+  .content {
+	padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+	padding-top: 60px;
+  }
 
 #category{
 font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
