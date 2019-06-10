@@ -17,54 +17,97 @@ various style changes
 	manipulation of images,
 	hover 
 	visibility changes links 
-    other elements*/
-.purplecat{
-color: purple;
+	other elements*/
+	
+
+h1,h3 {
+	color: purple;
+	font-family: arial,Sans-serif;
+	font-weight: 900;
+	font-style: italic;
+	text-align: center;
+	font-weight: bold;
 }
-    h1,h3 {
-        color: purple;
-        font-family: arial,Sans-serif;
-        font-weight: 900;
-        font-style: italic;
-        text-align: center;
-        font-weight: bold;
-	}
 
-	h2{border: 2px solid rgb(250, 150, 250);
-	 border-radius: 5px;
-	 font-weight:900;color:rgb(204, 0, 255);
-	background-color: rgb(250, 150, 250);
-	}
 
-    hr {
-        border: 4px dashed rgb(96, 52, 153);
-		border-radius: 5px;
-	}
-	pre {font-size: 5vw;}
-
-	span {color:rgb(129, 0, 161);
-		font-family: arial, Sans-serif;
-	font-weight:bold;
-	border: 1px solid rgb(250, 150, 250);
-	background-color: rgb(250, 150, 250);
+hr {
+	border: 4px dashed rgb(96, 52, 153);
 	border-radius: 5px;
-	}
+}
+pre {
+	background-color: pink;
+	padding-top: 60px;
+	font-size: 5vw;
+}
 
-
+span {color:rgb(129, 0, 161);
+	font-family: arial, Sans-serif;
+font-weight:bold;
+border: 1px solid rgb(250, 150, 250);
+background-color: rgb(250, 150, 250);
+border-radius: 5px;
+}
 
 
 table, th, td {
-	border: 1px solid black;
+  border: 1px solid black;
 }
 
+/*This is how I align and style the the texts in p and images*/
 p, img {
-		display: block;
-						margin-left: auto;
-						margin-right: auto;
-						width: 40%;
-						text-align: center;
-						color: black;
+	display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 40%;
+			text-align: center;
+			color: black;
 } 
+
+/*sets the color for the links*/
+a, p {
+	color: hotpink
+}
+
+.title-bg{
+	background-color: pink;
+	width: 100%;
+	margin: 0%;
+}
+.container{
+	width:80%;
+	margin:auto;
+}
+/*This is how I align and style the lists*/
+.list { 
+	width: 300px;
+	border: 15px solid purple;
+	padding: 50px;
+	margin: 20px;
+	display:table; 
+	margin:0 auto;
+}
+
+.cat{
+	border: 50x purple solid;
+	width: 100%;
+}
+
+#category{
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+}
+
+#category tr:nth-child(even){background-color: #f2f2f2;}
+
+#category tr:hover {background-color: rgb(51, 42, 42);}
+
+#category th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: rgba(240, 122, 189, 0.815);
+	color: white;
+}
 
 /*This is how I align and style the lists*/
 .item-list { 
@@ -76,10 +119,6 @@ p, img {
 		margin:0 auto;
 }
 
-/*sets the color for the links*/
-p {
-		color: hotpink
-}
 
 /* Style the navbar */
 #navbar {
@@ -132,7 +171,6 @@ border-collapse: collapse;
 }
 
 
-
 /*-------------- CAT BIG FWACKING CAT --------------*/
 	* {
 		box-sizing: border-box;
@@ -155,7 +193,7 @@ border-collapse: collapse;
 		}
 	*/
 	
-	  
+	
 	  .bar--left,
 	  .cat{
 		background: white;
