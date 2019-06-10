@@ -197,13 +197,14 @@ border-collapse: collapse;
 	  .bar--left,
 	  .cat{
 		background: white;
-		
+		position: absolute;
 	  }
 	  
 	  .bar--left {
 		width: 57px;
 		height: 316px;  
-		
+		position: absolute;
+		position: absolute;
 	  }
 	  
 	  .table--top {
@@ -221,6 +222,7 @@ border-collapse: collapse;
 		  background-size: 70px 70px;
 		border-radius: 25% 45% 0 0 ;
 		transform: rotate(45deg) skewY(135deg) skewX(5deg);
+		position: absolute;
 	  }
 	  
 	  .table--front {
@@ -230,6 +232,7 @@ border-collapse: collapse;
 		  transform: skewY(3deg);
 		  background: repeating-linear-gradient(90deg, black, black 25%, white 25%, white 50%, black 50%) top left;
 		  background-size: 174px;
+		  position: absolute;
 	  }
 	  
 	  .cat--base {
@@ -239,6 +242,7 @@ border-collapse: collapse;
 		left: 100px;
 		transform: skew(30deg, 10deg);
 		border-radius: 40px 0 20px 0;  
+		position: absolute;
 	  }
 	  
 	  .cat--tail {
@@ -251,6 +255,7 @@ border-collapse: collapse;
 		transform: rotate(-10deg) skew(10deg, 30deg);
 		left: 120px;
 		z-index: 1;
+		position: absolute;
 	  }
 	  
 	  .cat--middle {
@@ -260,6 +265,7 @@ border-collapse: collapse;
 		left: 108px;
 		transform: skewX(-13deg);
 		border-radius: 20% 70% 00% 10%;
+		position: absolute;
 	  }
 	  
 	  .cat--front {
@@ -272,6 +278,7 @@ border-collapse: collapse;
 		  border-left: 5px solid black;
 		  border-bottom: 2px solid black;
 		  border-radius: 253% 69% 80% 200%;
+		  position: absolute;
 	  }
 	  
 	  .cat--head {
@@ -281,6 +288,7 @@ border-collapse: collapse;
 		  left: 108px;
 		  border-bottom: 3px solid black;
 		  border-radius: 50px 30px;
+		  position: absolute;
 	  }
 	  
 	  .cat--right--ear {
@@ -298,6 +306,7 @@ border-collapse: collapse;
 		  top: 70px;
 		  left: 126px;
 		  transform: rotate(25deg) skewY(10deg) skewX(30deg);
+		  position: absolute;
 	  }
 	  
 	  .m,
@@ -306,6 +315,7 @@ border-collapse: collapse;
 		width: 25px;
 		height: 22px;
 		background: #000;
+		position: absolute;
 	  }
 	  
 	  .m {
@@ -318,6 +328,7 @@ border-collapse: collapse;
 			  black 50%
 		  ) top left;
 		  background-size: 18px;
+		  position: absolute;
 		border-top: 4px dashed black;
 	  }
 	  
@@ -334,6 +345,7 @@ border-collapse: collapse;
 		  background-size: 15px;
 		border-left: 12px solid black;
 		border-top: 2px solid black;
+		position: absolute;
 	  }
 	  
 	  .e {
@@ -349,4 +361,5 @@ border-collapse: collapse;
 		  background-size: 11px;
 		border-left: 12px solid black;
 		border-top: 3px solid black;
+		position: absolute;
 	  }
