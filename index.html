@@ -70,7 +70,7 @@ and image <img> -->
 
         <p><strong>This page is about cats</strong></p>
         
-            <img src = "https://media.giphy.com/media/33OrjzUFwkwEg/giphy.gif" alt="cat gif">
+            <img class="kittythot" src = "https://media.giphy.com/media/33OrjzUFwkwEg/giphy.gif" alt="cat gif">
             
             <button onclick="playSound()">Click for Cat Sounds</button>
 
@@ -106,7 +106,7 @@ and image <img> -->
     </div>
 </div>
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-6">
             <!--CAT-->
     <div class="outer--border">
         <div class="bar--left"></div>
@@ -123,6 +123,21 @@ and image <img> -->
         <div class="cat cat--right--ear"></div>
         <div class="cat cat--left--ear"></div>
     </div>
+    </div>
+
+    <div class="col-md-6">
+                    <p id="CatInHat"></p>
+
+                    <script>
+                    var Lines = ["We looked!", "Then we saw him step in on the mat!", "We looked", "And we saw him!", "The Cat in the Hat!"];
+                    var text = "";
+                    var i;
+                    for (i = 0; i < Lines.length; i++) {
+                      text += Lines[i] + "<br>";
+                    }
+                    document.getElementById("CatInHat").innerHTML = text;
+                    </script>
+                    
     </div>
     </div>
 
